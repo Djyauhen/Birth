@@ -1,0 +1,108 @@
+/*550 - 768 */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 40px 10px 40px 10px;
+    }
+
+    .title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .title .text {
+        margin-bottom: 20px;
+    }
+
+    .photo-slider {
+        margin-bottom: 40px;
+    }
+
+    .photo-slider .text {
+        max-width: 550px;
+        margin-bottom: 20px;
+    }
+
+    .carousel {
+        max-width: 686px;
+        box-shadow: inset 686px 0 0 rgba(255, 255, 255, 0.5);
+        border-radius: 15px;
+    }
+
+    .carousel-item {
+        max-width: 686px;
+    }
+
+    .carousel-item img {
+        max-width: 686px;
+        max-height: 450px;
+        border-radius: 10px;
+    }
+
+    .carousel-caption {
+        width: 250px;
+    }
+
+    .present {
+         margin-bottom: 50px;
+     }
+
+    .present .image {
+        max-height: 450px;
+        margin-bottom: 20px;
+    }
+
+    .present .image img {
+        max-height: 450px;
+        max-width: 450px;
+    }
+
+    .map {
+        margin-bottom: 50px;
+    }
+
+    .map .map-position {
+        margin-top: 20px;
+        max-width: 450px;
+    }
+
+    .map .map-position iframe {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .text {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+
+    .carousel-caption {
+        width: 200px;
+        line-height: 15px;
+        font-size: 15px;
+    }
+
+    .carousel-item img {
+        max-height: 300px;
+    }
+
+    .present .image img {
+        max-height: 350px;
+        max-width: 350px;
+    }
+
+    .map .map-position {
+        max-height: 320px;
+    }
+
+    .map .map-position iframe {
+        max-height: 320px;
+        max-width: 320px;
+        border-radius: 15px;
+    }
+}
